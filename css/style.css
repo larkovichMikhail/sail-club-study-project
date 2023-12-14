@@ -3,7 +3,47 @@
 	font-size: 16px;
 	line-height: 24px;
 	background-color: #FDFDFF;color: #163152;
+	margin: 0;
+	
+
 }
+
+.page-header {
+	margin: 0 auto;
+	margin-bottom: 40px;
+	padding: 0 55px;
+	width: 1170px;
+	
+	
+}
+
+.main-nav {
+	display: flex;
+
+}
+
+.logo {
+	margin-right: 471px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+.site-navigation {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	margin-top: 45px;
+	margin-bottom: 45px;
+
+}
+
+.site-navigation-item {
+	margin-right: 30px;
+}
+
+
 
 .site-navigation-item a {
 	font-size: 14px;
@@ -14,12 +54,37 @@
 	
 }
 
+.signin {
+	margin-left: auto;
+	margin-top: 36px;
+	margin-bottom: 36px;
+	
+
+}
+
+.signin img {
+	padding: 9px;
+}
+
+.main-content {
+	margin: 0 auto;
+	padding-left: 55px;
+	padding-right: 55px;
+	width: 1170px;
+}
+
+.hero {
+	margin-bottom: 120px;
+}
+
 .hero h1 {
 	font-size: 44px;
 	font-style: italic;
 	line-height: 60px;
 	font-weight: 400;
 	text-transform: uppercase;
+	margin-left: 70px;
+	margin-bottom: 40px;
 }
 
 .blog-article time {
