@@ -43,6 +43,10 @@
 	margin-right: 30px;
 }
 
+.site-navigation-item:last-child {
+	margin-right: 0;
+}
+
 
 
 .site-navigation-item a {
@@ -55,7 +59,7 @@
 }
 
 .signin {
-	margin-left: auto;
+	margin-left: 40px;
 	margin-top: 36px;
 	margin-bottom: 36px;
 	
@@ -87,10 +91,71 @@
 	margin-bottom: 40px;
 }
 
-.blog-article time {
+.blog-article{
+	width: 1030px;
+	margin: 0 auto;
+	margin-bottom: 100px; 
+	
+	display: flex;
+	justify-content: space-between;
+}
+
+.blog-article-content {
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+}
+
+.blog-article-content-1 {
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+	align-items: end;
+}
+
+
+
+.blog-article-content-1 p {
+	text-align: end;
+}
+.blog-article-content time {
 	font-size: 14px;
 	line-height: 18px;
 	text-transform: uppercase;
+	
+}
+
+.time {
+	padding: 0;
+	margin: 0;
+	margin-bottom: 10px;
+	order: -1;
+}
+
+.blog-article h2 {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 19px;
+}
+
+.blog-article-1 h2 {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 19px;
+}
+
+.blog-article-1 {
+	width: 1030px;
+	padding: 0;
+	margin: 0 auto;
+	margin-bottom: 120px;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+}
+
+.blog-article-img {
+	width: 600px;
 }
 
 h2 {
@@ -150,19 +215,36 @@ h3 {
 .news {
 	font-size: 18px;
 	line-height: 26px;
+	width: 770px;
+	margin: 0 auto;
 }
 
 .news-title {
+	margin-top: 0;
 	text-align: center;
+	margin-bottom: 55px;
+}
+
+.news-img {
+	margin-bottom: 17px;
 }
 
 .scaled {
+	margin-top: 0;
 	font-size: 16px;
 	line-height: 19px;
 	color: #8693A4;
+	margin-bottom: 33px;
+}
+
+.news-content {
+	margin-top: 0;
+	margin-bottom: 24px;
 }
 
 .results-title {
+	margin-top: 0;
+	margin-bottom: 27px;
 	font-size: 22px;
 	line-height: 26px;
 	font-weight: 700;
@@ -173,15 +255,29 @@ h3 {
 }
 
 .teams-title {
+	margin-top: 0;
+	margin-bottom: 15px;
 	font-size: 20px;
 	font-weight: 700;
 	line-height: 26px;
 }
 
+.teams-items {
+	margin: 0;
+	
+	margin-bottom: 30px;
+}
+
 .teams-item {
+	margin-bottom: 8px;
 	font-size: 18px;
 	line-height: 26px;
 }
+
+.teams-item:last-child {
+	margin-bottom: 0;
+}
+
 
 .team-blokquote {
 	font-size: 26px;
@@ -190,6 +286,8 @@ h3 {
 	border-left: 2px solid #00C6BD;
 	padding-left: 20px;
 	margin-left: 0;
+	margin-top: 38px;
+	margin-bottom: 30px;
 }
 
 h4 {
